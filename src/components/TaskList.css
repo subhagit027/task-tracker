@@ -1,0 +1,62 @@
+.task-list {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-list h2 {
+    color: #2c3e50; 
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .task-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .task-list table thead th {
+    background-color: #f8f9fa; 
+    padding: 10px;
+    text-align: left;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .task-list table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; 
+  }
+  
+  .task-list table tbody tr:nth-child(even) {
+    background-color: #ffffff; 
+  }
+  
+  .task-list table td,
+  .task-list table th {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-list table td button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-list table td button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .task-list .delete-btn {
+    background-color: #dc3545; 
+  }
+  
+  .task-list .delete-btn:hover {
+    background-color: #c82333; 
+  }
+  
